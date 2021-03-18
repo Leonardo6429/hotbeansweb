@@ -14,7 +14,6 @@ body {
     background-attachment: fixed;
     background-size: cover;
     height: 100vh;
-    overflow-x: hidden;
 }
 
 .jumbo {
@@ -140,6 +139,7 @@ footer {
   padding-top: 30px; 
   height: 30px;
   position: fixed;
+  position: -webkit-sticky;
   transition: 0.3s ease-in-out;
 }
 
@@ -188,7 +188,6 @@ footer {
   text-align: left;
   position: absolute;
   z-index: 50;
-  overflow-x: hidden;
   transition: 0.5s;
 }
 
